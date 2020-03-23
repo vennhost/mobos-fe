@@ -1,0 +1,28 @@
+#login {
+    display: none;
+}
+
+#sign-up {
+    display: none;
+}
+
+.dash-cont {
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    
+    
+}
+
+.dash-data {
+    text-align: center;
+    align-content: center !important;
+    height: 100px;
+
+}
+
+.dash-data .dash-text {
+    margin-top: 10px;
+    padding-top: 10px;
+    align-content: center;
+}
