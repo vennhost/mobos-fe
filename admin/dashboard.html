@@ -10,6 +10,9 @@
     />
 
     <link rel="stylesheet" href="../style.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 
     
@@ -22,13 +25,25 @@
     />
   </head>
   <body>
-    <header>
-        <strong>Dashboard</strong>
+   <!--  <span class="material-icons">menu</span><strong class="navbar-brand">Dashboard</strong> -->
+      <div class="row">
+          
+    <header class="col-2">
+        
+        <div class="navbar">
+            <a href="#" class="navbar__link"><span class="material-icons">home</span>Home</a>
+            <a href="#" class="navbar__link"><span class="material-icons">shopping_basket</span>Sales</a>
+            <a href="#" class="navbar__link"><span class="material-icons">shopping_cart</span>Orders</a>
+            <a href="#" class="navbar__link"><span class="material-icons">attach_money</span>Commissions</a>
+            <a href="#" class="navbar__link"><span class="material-icons">people</span>Team</a>
+            <a href="#" class="navbar__link"><span class="material-icons">settings</span>Account Settings</a>
+            <a href="#" class="navbar__link"><span class="material-icons">exit_to_app</span>Logout</a>
+        </div>
     </header>
     <section></section>
 
-    <section>
-      <div class="container dash-cont">
+    <div class="col-8 mt-5">
+      <div class="dash-cont">
           <div class="row">
               <div class="col-2 ml-2 bg-success text-white dash-data"><span class="dash-text">Total sales</span></div>
               <div class="col-2 ml-2 bg-secondary text-white dash-data"><span class="dash-text">Total Commission</span></div>
@@ -36,7 +51,8 @@
           </div>
         <canvas id="userChart"></canvas>
       </div>
-    </section>
+    </div>
+</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
